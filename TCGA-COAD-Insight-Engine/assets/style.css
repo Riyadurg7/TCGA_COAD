@@ -1,0 +1,111 @@
+/* TCGA-COAD Insight Engine — Dark Theme */
+
+:root {
+    --bg-base: #1e1e2e;
+    --bg-surface: #313244;
+    --bg-overlay: #45475a;
+    --text-main: #cdd6f4;
+    --text-muted: #6c7086;
+    --blue: #89b4fa;
+    --red: #f38ba8;
+    --green: #a6e3a1;
+    --peach: #fab387;
+    --mauve: #cba6f7;
+}
+
+.stApp {
+    background-color: var(--bg-base);
+    color: var(--text-main);
+}
+
+[data-testid="stSidebar"] {
+    background-color: var(--bg-surface);
+}
+
+[data-testid="stMetric"] {
+    background-color: var(--bg-surface);
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid var(--bg-overlay);
+}
+
+[data-testid="stMetricValue"] {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+h1 {
+    color: var(--blue);
+    font-weight: 800;
+    letter-spacing: -0.5px;
+}
+
+h2, h3 {
+    color: var(--text-main);
+    font-weight: 600;
+}
+
+.stTabs [data-baseweb="tab-list"] {
+    gap: 8px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    background-color: var(--bg-surface);
+    border-radius: 8px 8px 0 0;
+    padding: 8px 20px;
+    color: var(--text-muted);
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: var(--bg-overlay);
+    color: var(--blue);
+}
+
+div.stButton > button {
+    background-color: var(--blue);
+    color: var(--bg-base);
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    padding: 0.5rem 1.5rem;
+}
+
+div.stButton > button:hover {
+    background-color: var(--mauve);
+}
+
+.stSelectbox, .stMultiSelect {
+    color: var(--text-main);
+}
+
+div[data-testid="stExpander"] {
+    background-color: var(--bg-surface);
+    border: 1px solid var(--bg-overlay);
+    border-radius: 8px;
+}
+
+.stDataFrame {
+    border: 1px solid var(--bg-overlay);
+    border-radius: 8px;
+}
+
+/* KPI card style */
+.kpi-card {
+    background: linear-gradient(135deg, var(--bg-surface), var(--bg-overlay));
+    border-radius: 12px;
+    padding: 1.2rem;
+    text-align: center;
+    border: 1px solid var(--bg-overlay);
+}
+
+.kpi-card h3 {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 0.3rem;
+}
+
+.kpi-card p {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0;
+}
