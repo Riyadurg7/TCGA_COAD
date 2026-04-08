@@ -1,6 +1,24 @@
 # TCGA-COAD Insight Engine
 
-A comprehensive, interactive web application for analyzing **Colon Adenocarcinoma (colon cancer)** data using real patient data from The Cancer Genome Atlas (TCGA). The app combines data visualization, statistical analysis, and machine learning to help explore how genes behave in colon cancer, predict cancer characteristics, and estimate patient risk.
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ppb-miniproj.streamlit.app/)
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+
+
+An interactive web application for exploring **Colon Adenocarcinoma (TCGA-COAD)** data — combining gene expression analysis, clinical exploration, survival modeling, and machine learning on real patient data from The Cancer Genome Atlas.
+
+### [Live Demo](https://ppb-miniproj.streamlit.app/)
+
+---
+
+### Features
+
+- **Differential Expression** — Identify genes significantly up/down-regulated in tumor vs. normal tissue
+- **PCA & Correlation** — Visualize sample clustering and gene co-expression patterns
+- **Clinical Explorer** — Cross-tabulate clinical variables with auto-selected statistical tests
+- **Survival Analysis** — Kaplan-Meier curves, Cox regression, and risk stratification
+- **ML Prediction Lab** — Pre-trained classifiers for tumor/normal, cancer stage, and patient risk
+- **Gene Lookup** — Search any gene for its full expression and survival profile
+- **Patient Risk Calculator** — Input clinical + molecular features to get a predicted risk score
 
 ---
 
@@ -629,3 +647,9 @@ Open your browser to `http://localhost:8501`. The app loads the data once (cache
 ### Fully Offline
 
 This app requires **no internet connection** at runtime. Gene ID mapping uses a bundled CSV file. No external API calls are made. All data and models are local.
+
+---
+
+### Live App
+
+The hosted version is available at **[ppb-miniproj.streamlit.app](https://ppb-miniproj.streamlit.app/)** — no setup required.
