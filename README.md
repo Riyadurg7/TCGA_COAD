@@ -1,4 +1,4 @@
-# TCGA-COAD Insight Engine
+# ColonScope
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ppb-miniproj.streamlit.app/)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
@@ -553,7 +553,7 @@ This page has **three tabs:**
 ## Project Structure
 
 ```
-TCGA-COAD-Insight-Engine/
+ColonScope/
 |
 |-- app.py                          # Main entry point. Loads data, sets up sidebar navigation, routes to pages.
 |-- requirements.txt                # Python package dependencies

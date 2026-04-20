@@ -2,7 +2,7 @@ import streamlit as st
 import os
 
 st.set_page_config(
-    page_title="TCGA-COAD Insight Engine",
+    page_title="ColonScope",
     page_icon="🧬",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -15,7 +15,7 @@ if os.path.exists(css_path):
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # ── Sidebar ──────────────────────────────────────────────
-st.sidebar.title("TCGA-COAD Insight Engine")
+st.sidebar.title("ColonScope")
 st.sidebar.caption("Colon Adenocarcinoma Analysis & Prediction")
 
 page = st.sidebar.radio(

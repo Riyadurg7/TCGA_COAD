@@ -5,7 +5,7 @@ def render():
     # ── Hero ─────────────────────────────────────────────
     st.markdown(
         "<h1 style='text-align:center; font-size:2.6rem; margin-bottom:0;'>"
-        "TCGA-COAD Insight Engine</h1>"
+        "ColonScope</h1>"
         "<p style='text-align:center; color:#6c7086; font-size:1.1rem; margin-top:4px;'>"
         "Interactive analysis of colon adenocarcinoma using real patient data from "
         "The Cancer Genome Atlas</p>",
